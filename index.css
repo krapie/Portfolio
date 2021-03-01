@@ -1,4 +1,86 @@
+/* GLOBAL */
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0px;
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+
+    background-color: #121212;
+    height: 100%;
+}
+
+b {
+    color: #BB86FC;
+}
+
+p {
+    color: #9E9E9E;
+    font-size: 1.5rem;
+}
+
+/* FRONT */
+.front {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
     text-align: center;
-    font-size: 50px;
+    color: white;
+    font-size: 4rem;
+}
+
+/* ABOUT ME */
+.about_me {
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80%;
+
+    border-radius: 10px;
+    border: 2px solid #1D1D1D;
+
+    background-color: #1D1D1D;
+
+    text-align: center;
+
+    color: white;
+}
+
+/* PROJECTS */
+.projects {
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+
+    border-radius: 10px;
+    border: 2px solid #1D1D1D;
+
+    background-color: #1D1D1D;
+
+    text-align: center;
+
+    color: white;
+}
+
+/* CONTACT */
+.contact {
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80%;
+
+    border-radius: 10px;
+    border: 2px solid #1D1D1D;
+
+    background-color: #1D1D1D;
+
+    text-align: center;
+
+    color: white;
 }
