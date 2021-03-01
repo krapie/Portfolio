@@ -17,9 +17,14 @@ b {
     color: #BB86FC;
 }
 
+h2 {
+    color: white;
+    font-size: 5rem;
+}
 p {
     color: #9E9E9E;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 5%;
 }
 
 /* FRONT */
@@ -36,51 +41,66 @@ p {
 
 /* ABOUT ME */
 .about_me {
-    margin: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 80%;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
 
-    border-radius: 10px;
+    border-radius: 5%;
     border: 2px solid #1D1D1D;
 
     background-color: #1D1D1D;
-
     text-align: center;
-
     color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
 }
+
 
 /* PROJECTS */
 .projects {
-    margin: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: 100%;
 
-    border-radius: 10px;
+    border-radius: 5%;
     border: 2px solid #1D1D1D;
 
     background-color: #1D1D1D;
-
     text-align: center;
-
     color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
 }
 
 /* CONTACT */
 .contact {
-    margin: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 80%;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
 
-    border-radius: 10px;
+    border-radius: 5%;
     border: 2px solid #1D1D1D;
 
     background-color: #1D1D1D;
+    text-align: center;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+}
+
+/* BOTTOM */
+.bottom {
+    height: 10%;
+    margin-top: 10%;
 
     text-align: center;
-
-    color: white;
 }
