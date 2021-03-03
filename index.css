@@ -4,6 +4,12 @@ html {
     font-size: 17px;
 }
 
+@media (max-width: 1000px) {
+    html {
+        font-size: 22px;
+    }
+}
+
 body {
     margin: 0px;
 
@@ -57,6 +63,15 @@ h3 {
     text-align: center;
 }
 
+@media (max-width: 1000px) {
+    .about_me {
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        margin-top: 20%;
+    }
+}
+
 .about_me p {
     font-size: 2rem;
 }
@@ -73,6 +88,25 @@ h3 {
     margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1000px) {
+    .skills {
+        margin-top: 10%;
+    }
+    .skills .skill_list {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills .skill_list {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .skills .skill_list li{
@@ -93,6 +127,10 @@ h3 {
     text-align: center;
 }
 
+.projects h2 {
+    text-align: center;
+}
+
 .projects .project_list {
     height: 90%;
     margin-top: 5%;
@@ -100,8 +138,30 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 1000px) {
+    .projects {
+        margin-top: 10%;
+    }
+    
+    .projects .project_list {
+        height: 100%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects .project_list {
+        height: 100%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 .projects .project_list li{
-    height: 80%;
+    height: 90%;
     list-style: none;
     margin: 3%;
     background-color: #1D1D1D;
@@ -181,6 +241,29 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     color: white;
+}
+
+@media (max-width: 1000px) {
+    .contact {
+        margin-top: 10%;
+    }
+    .contact .contact_list {
+        margin-top: 8%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        list-style: none;
+        color: white;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact .contact_list {
+        margin-top: 8%;
+        display: grid;
+        grid-template-columns: 1fr;
+        list-style: none;
+        color: white;
+    }
 }
 
 .contact .contact_list li a {
