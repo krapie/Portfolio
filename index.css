@@ -51,7 +51,7 @@ h3 {
 
 /* ABOUT ME */
 .about_me {
-    height: 100%;
+    height: 70%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -107,7 +107,7 @@ h3 {
 }
 
 .projects .project_list li{
-    height: 90%;
+    height: 70%;
     list-style: none;
     margin: 3%;
     background-color: #1D1D1D;
@@ -175,7 +175,7 @@ h3 {
 
 /* CONTACTS */
 .contact {
-    height: 50%;
+    height: 30%;
     margin-top: 10%;
     margin-left: 30%;
     margin-right: 30%;
@@ -217,41 +217,46 @@ h3 {
     }
 
     .front {
-        height: 100%;
+        font-size: 2rem;
+    }
     
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        text-align: center;
-        color: white;
-        font-size: 3rem;
+    .about_me {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .skills {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .skills .skill_list {
-        margin-top: 5%;
-        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .projects {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .projects .project_list {
-        height: 90%;
-        margin-top: 5%;
-        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
+    .contact {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .contact .contact_list {
-        margin-top: 8%;
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        list-style: none;
-        color: white;
+
     }
 }
 /* Mobile */
 @media screen and (max-width: 767px) {
     html {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .front {
