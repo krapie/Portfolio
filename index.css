@@ -51,6 +51,7 @@ h3 {
 
 /* ABOUT ME */
 .about_me {
+    height: 100%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -72,6 +73,7 @@ h3 {
     margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px;
 }
 
 .skills .skill_list li{
@@ -85,7 +87,7 @@ h3 {
 
 /* PROJECTS */
 .projects {
-    height: 50%;
+    height: 100%;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -101,6 +103,7 @@ h3 {
     margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
 }
 
 .projects .project_list li{
@@ -172,6 +175,7 @@ h3 {
 
 /* CONTACTS */
 .contact {
+    height: 50%;
     margin-top: 10%;
     margin-left: 30%;
     margin-right: 30%;
@@ -184,6 +188,8 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     color: white;
+    padding: 0px;
+
 }
 
 .contact .contact_list li a {
@@ -249,34 +255,39 @@ h3 {
     }
 
     .front {
-        height: 100%;
+        font-size: 2rem;
+    }
     
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        text-align: center;
-        color: white;
-        font-size: 3rem;
+    .about_me {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .skills {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .skills .skill_list {
-        margin-top: 5%;
-        display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .projects {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .projects .project_list {
-        height: 90%;
-        margin-top: 5%;
-        display: grid;
         grid-template-columns: 1fr;
     }
 
+    .contact {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .contact .contact_list {
-        margin-top: 8%;
-        display: grid;
         grid-template-columns: 1fr;
-        list-style: none;
-        color: white;
+
     }
 }
