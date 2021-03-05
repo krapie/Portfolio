@@ -73,8 +73,8 @@ h3 {
     font-size: 4rem;
 }
 
-/* ABOUT ME */
-.about_me {
+/* ABOUT */
+.about {
     margin-top: 5%;
     height: 50%;
     margin-left: 20%;
@@ -82,7 +82,7 @@ h3 {
     text-align: center;
 }
 
-.about_me p {
+.about p {
     font-size: 2rem;
 }
 
@@ -239,14 +239,14 @@ h3 {
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .front {
         font-size: 2rem;
     }
     
-    .about_me {
+    .about {
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -282,14 +282,14 @@ h3 {
 /* Mobile */
 @media screen and (max-width: 767px) {
     html {
-        font-size: 19px;
+        font-size: 15px;
     }
 
     .front {
         font-size: 2rem;
     }
     
-    .about_me {
+    .about {
         margin-left: 5%;
         margin-right: 5%;
     }
