@@ -76,7 +76,7 @@ h3 {
 /* ABOUT */
 .about {
     margin-top: 5%;
-    height: 50%;
+    height: 90%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -88,6 +88,7 @@ h3 {
 
 /* SKILLS */
 .skills {
+    height: 90%;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -295,6 +296,7 @@ h3 {
     }
 
     .skills {
+        height: auto;
         margin-left: 5%;
         margin-right: 5%;
     }

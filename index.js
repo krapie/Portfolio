@@ -17,7 +17,7 @@ function scroll_navigation() {
     if(this.classList.contains("to_front")) {
         element_to_scroll = document.querySelector('.front');
         scroll_to(element_to_scroll);
-    } else if(this.classList.contains("to_about_me")) {
+    } else if(this.classList.contains("to_about")) {
         element_to_scroll = document.querySelector('.about');
         scroll_to(element_to_scroll);
     } else if(this.classList.contains("to_skills")) {
