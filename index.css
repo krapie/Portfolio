@@ -37,6 +37,30 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* NAVIGATION BAR */
+.navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.navigation_list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+}
+
+.navigator a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigator a:hover {
+    color: #BB86FC;
+    cursor: pointer;
+}
+
 /* FRONT */
 .front {
     height: 100%;
@@ -51,7 +75,8 @@ h3 {
 
 /* ABOUT ME */
 .about_me {
-    height: 70%;
+    margin-top: 5%;
+    height: 50%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -89,6 +114,7 @@ h3 {
 .projects {
     height: 100%;
     margin-top: 5%;
+
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -99,7 +125,7 @@ h3 {
 }
 
 .projects .project_list {
-    height: 90%;
+    height: 70%;
     margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -174,15 +200,15 @@ h3 {
 }
 
 /* CONTACTS */
-.contact {
+.contacts {
     height: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
 }
 
-.contact .contact_list {
+.contacts .contacts_list {
     margin-top: 8%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -192,13 +218,13 @@ h3 {
 
 }
 
-.contact .contact_list li a {
+.contacts .contacts_list li a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
 }
 
-.contact .contact_list li a:hover {
+.contacts .contacts_list li a:hover {
     color: #BB86FC;
     font-weight: bold;
 }
@@ -243,12 +269,12 @@ h3 {
         grid-template-columns: 1fr 1fr;
     }
 
-    .contact {
+    .contacts {
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    .contact .contact_list {
+    .contacts .contacts_list {
         grid-template-columns: 1fr 1fr;
 
     }
@@ -286,12 +312,12 @@ h3 {
         grid-template-columns: 1fr;
     }
 
-    .contact {
+    .contacts {
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    .contact .contact_list {
+    .contacts .contacts_list {
         grid-template-columns: 1fr;
 
     }
