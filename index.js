@@ -3,7 +3,7 @@ const content = "Developer";
 const text = document.querySelector('.text');
 const navigators = document.querySelectorAll('.navigator');
 const saElementList = document.querySelectorAll('.sa');
-const saTriggerMargin = 100;
+let saTriggerMargin;
 
 var element_to_scroll;
 let index = 0;
@@ -45,6 +45,7 @@ function scroll_to(element_to_scroll) {
 
 function saFunc() {
     for(const element of saElementList) {
+        saTriggerMargin = element.offsetHeight / 4;
         if(!element.classList.contains('show')) {
             if(window.innerHeight > element.getBoundingClientRect().top + saTriggerMargin) {
                 element.classList.add('show');
