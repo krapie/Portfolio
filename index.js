@@ -2,6 +2,9 @@
 const content = "Developer";
 const text = document.querySelector('.text');
 const navigators = document.querySelectorAll('.navigator');
+const saElementList = document.querySelectorAll('.sa');
+const saTriggerMargin = 100;
+
 var element_to_scroll;
 let index = 0;
 
@@ -40,6 +43,18 @@ function scroll_to(element_to_scroll) {
     });
 }
 
+function saFunc() {
+    for(const element of saElementList) {
+        if(!element.classList.contains('show')) {
+            if(window.innerHeight > element.getBoundingClientRect().top + saTriggerMargin) {
+                element.classList.add('show');
+            }
+        }
+    }
+}
+
 //ADD EVENT LISTENERS
 var interval = setInterval(typing_text_effect,250);
 navigators.forEach(navigator => navigator.addEventListener('click', scroll_navigation));
+
+window.addEventListener('scroll', saFunc);

@@ -37,6 +37,11 @@ h3 {
     font-size: 1.5rem;
 }
 
+.sa {
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
 /* NAVIGATION BAR */
 .navigation {
     position: fixed;
@@ -234,6 +239,16 @@ h3 {
 .bottom {
     padding: 10px;
     text-align: center;
+}
+
+/* Scroll Animation */
+.sa-up {
+    transform: translate(0,100px);
+}
+
+.show {
+    opacity: 1;
+    transform: none;
 }
 
 /* Responsive Web */
