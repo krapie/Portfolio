@@ -211,6 +211,14 @@ ul {
     transform: translate(0,100px);
 }
 
+.sa-right {
+    transform: translate(-100px, 0);
+ }
+     
+ .sa-left {
+    transform: translate(100px, 0);
+}
+
 .show {
     opacity: 1;
     transform: none;
