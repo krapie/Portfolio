@@ -1,5 +1,5 @@
 //ADD ELEMENTS
-const content = "Developer";
+let content;
 const text = document.querySelector('.text');
 const navigators = document.querySelectorAll('.navigator');
 const saElementList = document.querySelectorAll('.sa');
@@ -17,10 +17,7 @@ function typing_text_effect() {
 }
 
 function scroll_navigation() {
-    if(this.classList.contains("to_front")) {
-        element_to_scroll = document.querySelector('.front');
-        scroll_to(element_to_scroll);
-    } else if(this.classList.contains("to_about")) {
+    if(this.classList.contains("to_about")) {
         element_to_scroll = document.querySelector('.about');
         scroll_to(element_to_scroll);
     } else if(this.classList.contains("to_skills")) {
@@ -54,7 +51,13 @@ function saFunc() {
 }
 
 //ADD EVENT LISTENERS
+if(text.dataset.lang === "kr") {
+    content = "개발자";
+} else if(text.dataset.lang === "en") {
+    content = "Developer";
+}
 var interval = setInterval(typing_text_effect,250);
+
 navigators.forEach(navigator => navigator.addEventListener('click', scroll_navigation));
 
 window.addEventListener('scroll', saFunc);

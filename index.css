@@ -13,6 +13,11 @@ body {
     height: 100%;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 b {
     color: #BB86FC;
 }
@@ -57,11 +62,6 @@ ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     text-align: center;
-}
-
-.navigator a {
-    color: white;
-    text-decoration: none;
 }
 
 .navigator a:hover {
