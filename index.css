@@ -22,7 +22,7 @@ b {
     color: #BB86FC;
 }
 
-p {
+p, h4 {
     color: #9E9E9E;
     font-size: 1rem;
     margin: 5%;
@@ -197,6 +197,7 @@ ul {
 .contacts .contacts_list li a:hover {
     color: #BB86FC;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /* BOTTOM */
