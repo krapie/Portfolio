@@ -183,7 +183,7 @@ ul {
 .contacts .contacts_list {
     margin-top: 8%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto auto;
     list-style: none;
     color: white;
 }
