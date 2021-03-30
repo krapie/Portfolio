@@ -26,7 +26,7 @@ function scroll_navigation() {
     } else if(this.classList.contains("to_projects")) {
         element_to_scroll = document.querySelector('.projects');
         scroll_to(element_to_scroll);
-    } else {
+    } else if(this.classList.contains("to_contacts")) {
         element_to_scroll = document.querySelector('.contacts');
         scroll_to(element_to_scroll);
     }
