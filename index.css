@@ -57,6 +57,8 @@ ul {
 .navigation {
     position: fixed;
     width: 100%;
+
+    background-color: rgba(18,18,18,0.7);
 }
 
 .navigation_list {
